@@ -1,0 +1,131 @@
+body{    
+width: 100vw;height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.first{
+    width: 500px;height: 300px;
+    background: green;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover .two{
+        animation-play-state: paused;
+    }
+    &:hover .three{
+        //  animation-play-state: paused;
+         animation: three 1.5s infinite;
+         }
+    &:hover .foure{
+            animation: Foure 1.5s infinite;
+           }
+    &:hover #word{
+        animation: word 1.5s infinite;
+    }       
+#word{
+    display: block;
+    position: relative;
+    top: -310px;
+    color:white;
+}
+}
+.two{
+    width: 150px;height: 160px;
+    border-radius: 5px;
+    background: yellow;
+    position: relative;
+    animation: Two 5s infinite;
+    
+    
+}
+// .two:hover{
+//     animation-play-state: paused;
+// }
+// .two:hover~.three{
+//     animation: three 5s infinite;   
+// }
+@keyframes Two{
+    // from{
+    //     transform: rotate(0deg);
+    // }
+    // to{
+    //     transform: rotate(360deg)
+    // }
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes three{
+50%{
+    // background-color: red;
+    transform: translateX(-50px);
+}
+100%{
+    background-color: red;
+    // transform: translateX(50px);
+}
+}
+.three{
+    width: 200px;height: 50px;
+    background: black;
+    border-radius: 10px 0px 0px 10px;
+    position: absolute;
+    top: 0;bottom: 0;margin: auto 0;left: 100px;
+    // transition: background 3s;
+}
+    // .three:hover{
+    //     // background: red;
+    //     animation: three 5s infinite;
+    // }
+ .foure{
+     display: inline-block;
+     width: 35px;height: 35px;
+    //  background: blue;
+     border-top: 2px solid black;
+     border-right: 2px solid black;
+     transform: rotate(45deg);
+     position: absolute;
+     top: 6px;left: 150px;
+     
+    
+ }
+@keyframes Foure{
+    50%{
+        border-top-color: red;
+        border-right-color: red;
+        // transform: rotate(45deg);
+        transform:rotate(45deg);
+    }
+    100%{
+        transform: translateX(300px) rotate(45deg);
+        border-right-color: white;
+        border-top-color: white;
+        
+    }
+   
+}
+@keyframes word{
+    50%
+    {
+        color:black;
+    }
+    100%{
+        color: black;
+        transform: scale(8,8);
+    }
+}
+

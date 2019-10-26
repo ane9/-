@@ -1,0 +1,689 @@
+@media screen and (max-width: 960px) and (min-width: 0px) {
+  .container {
+    height: 48px;
+    background: rgba(45, 45, 45, 0.98);
+  }
+  .container .header {
+    height: 48px;
+    margin: auto;
+    background: rgba(45, 45, 45, 0.98);
+  }
+  .container .header .header2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container .header .header1 {
+    display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .container .header .header1 ul {
+    display: none;
+  }
+  .container .header .header1 ul .li #loga {
+    background-size: 16px 44px;
+    background-repeat: no-repeat;
+  }
+  .container .headerimg {
+    background-image: url(../static/hero-banner-homepage.image.large_2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 326px;
+    vertical-align: middle;
+  }
+  .container .headerimg .center {
+    display: none;
+    height: 125px;
+    margin: auto;
+    padding-top: 70px;
+  }
+  .container .headerimg .center .word {
+    height: 55px;
+    margin: auto;
+    padding-bottom: 38px;
+    text-align: center;
+    font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC", "Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #333333;
+    font-size: 31px;
+    font-weight: 500;
+  }
+  .container .headerimg .center input {
+    display: none;
+    height: 52px;
+    display: block;
+    margin: auto;
+  }
+  .container .headerimg1 .center {
+    height: 125px;
+    margin: auto;
+    padding-top: 32px;
+  }
+  .container .headerimg1 .center .word {
+    height: 39px;
+    margin: auto;
+    padding-bottom: 22px;
+    text-align: center;
+    font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC", "Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #333333;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .container .headerimg1 .center input {
+    width: 577px;
+    height: 40px;
+    display: block;
+    margin: auto;
+  }
+  .container .maneyImg {
+    padding-top: 58px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .container .maneyImg .manyImgOne {
+    width: 170.66667px;
+    height: 110px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container .maneyImg .manyImgOne img {
+    width: 68px;
+    height: 84px;
+    display: block;
+    padding-bottom: 16px;
+  }
+  .container .maneyImg .manyImgOne a {
+    color: #333333;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .container .maneyImg .manyImgOne a:hover {
+    text-decoration: underline;
+  }
+  .container .line {
+    margin-top: 48px;
+    border-bottom: 1px solid #dedede;
+  }
+  .container .gengxin {
+    margin: 38px auto;
+  }
+  .container .gengxin .small1 {
+    text-align: center;
+  }
+  .container .gengxin .small1 .first {
+    color: #333333;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+    height: 94px;
+    margin-bottom: 11.2PX;
+  }
+  .container .gengxin .small1 P {
+    color: #333333;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    height: 64PX;
+    margin-top: 16.5PX;
+    margin-bottom: 5.5PX;
+  }
+  .container .gengxin .small1 .two {
+    height: 32px;
+    margin-top: 24px;
+  }
+  .container .gengxin .small1 .two a {
+    color: #0070c9;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+  }
+  .container .gengxin .small1 .two a:hover {
+    text-decoration: underline;
+  }
+  .container .gengxin .small2 {
+    text-align: center;
+  }
+  .container .gengxin .small2 img {
+    width: 400px;
+    height: 209px;
+    display: block;
+    margin: auto;
+  }
+  .container .tongGuo {
+    border-top: 1px solid #dedede;
+    height: 320px;
+    background-image: url(../static/banner-hero-giveback-support.image.large_2x.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container .tongGuo .Tcenter {
+    display: none;
+    height: 200px;
+    margin: auto;
+  }
+  .container .tongGuo .Tcenter h2 {
+    height: 94px;
+    color: #333333;
+    font-size: 40px;
+    line-height: 47px;
+    font-family: "SF Pro SC","SF Pro Display", "SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  .container .tongGuo .Tcenter p {
+    width: 400px;
+    height: 52px;
+    margin-top: 12px;
+    color: #333333;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons", "PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  .container .tongGuo .Tcenter .TcenterA {
+    width: 400px;
+    height: 26px;
+    margin-top: 16px;
+  }
+  .container .tongGuo .Tcenter .TcenterA a {
+    color: #0070c9;
+    font-size: 15x;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC", "Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  .container .tongGuo .Tcenter .TcenterA a:hover {
+    text-decoration: underline;
+  }
+  .container .tongguo2 {
+    margin: auto;
+    margin-top: 32px;
+  }
+  .container .tongguo2 h2 {
+    height: 36px;
+    color: #333333;
+    font-size: 28px;
+    line-height: 47px;
+    font-family: "SF Pro SC","SF Pro Display", "SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  .container .tongguo2 p {
+    width: 400px;
+    height: 52px;
+    margin-top: 12px;
+    color: #333333;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons", "PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  .container .tongguo2 .TcenterA {
+    width: 400px;
+    height: 26px;
+    margin-top: 16px;
+  }
+  .container .tongguo2 .TcenterA a {
+    color: #0070c9;
+    font-size: 15x;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC", "Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  .container .tongguo2 .TcenterA a:hover {
+    text-decoration: underline;
+  }
+  .container .threeImg {
+    margin: auto;
+    margin-top: 42px;
+  }
+  .container .threeImg div {
+    margin-left: 44px;
+  }
+  .container .threeImg img {
+    display: block;
+    margin: auto;
+    width: 282px;
+    height: 173px;
+  }
+  .container .threeImg h3 {
+    margin: 8px 0px 8px 0px;
+    color: #333333;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  .container .threeImg p {
+    color: #333333;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 12.75px;
+  }
+  .container .threeImg a {
+    color: #0070c9;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    display: block;
+    margin-top: 12px;
+  }
+  .container .threeImg a:hover {
+    text-decoration: underline;
+  }
+  .container .xueXi {
+    height: 320px;
+    margin-top: 50px;
+    background-image: url(../static/hero-banner-homepage-mobile.image.large_2x.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container .xueXi .Xcenter {
+    display: none;
+    height: 153px;
+    margin: auto;
+  }
+  .container .xueXi .Xcenter h2 {
+    height: 47px;
+    color: white;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 47px;
+    font-family: "SF Pro SC","SF Pro Display","SF Pro Icons", "PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  .container .xueXi .Xcenter p {
+    height: 52px;
+    margin-top: 12px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons", "PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  .container .xueXi .Xcenter a {
+    display: block;
+    height: 26px;
+    margin-top: 16px;
+    color: #0070c9;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons" ,"PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  .container .xueXi .Xcenter a:hover {
+    text-decoration: underline;
+  }
+  .container .xuexi2 {
+    margin: auto;
+    margin-top: 32px;
+  }
+  .container .xuexi2 h2 {
+    height: 47px;
+    color: black;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 47px;
+    font-family: "SF Pro SC","SF Pro Display","SF Pro Icons", "PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  .container .xuexi2 p {
+    height: 52px;
+    margin-top: 12px;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons", "PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  .container .xuexi2 a {
+    display: block;
+    height: 26px;
+    margin-top: 16px;
+    color: #0070c9;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons" ,"PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  .container .xuexi2 a:hover {
+    text-decoration: underline;
+  }
+  .container .liaoJieNi {
+    height: 164px;
+    padding-top: 34px;
+    padding-bottom: 36px;
+    margin: auto;
+    display: flex;
+  }
+  .container .liaoJieNi .liaoJieNi1 {
+    height: 164px;
+  }
+  .container .liaoJieNi .liaoJieNi1 h3 {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  .container .liaoJieNi .liaoJieNi1 p {
+    margin-top: 8px;
+    color: #333333;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .container .liaoJieNi .liaoJieNi1 p a {
+    display: inline;
+    color: #0070c9;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .container .liaoJieNi .liaoJieNi1 p a:hover {
+    text-decoration: underline;
+  }
+  .container .liaoJieNi .liaoJieNi1 a {
+    display: block;
+    margin-top: 12px;
+    color: #0070c9;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .container .liaoJieNi .liaoJieNi1 a:hover {
+    text-decoration: underline;
+  }
+  .container .liaoJieNi .liaoJieNi2 {
+    display: none;
+    width: 328px;
+    height: 164px;
+  }
+  .container .liaoJieNi .liaoJieNi2 img {
+    width: 328px;
+    height: 164px;
+  }
+  .container .line2 {
+    margin-top: 12px;
+    border-bottom: 1px solid #dedede;
+  }
+  .container .rangWo {
+    padding-top: 48px;
+    margin: auto;
+  }
+  .container .rangWo .rangWo1 {
+    display: block;
+    margin: auto;
+    margin-bottom: 17px;
+    height: 200px;
+  }
+  .container .rangWo .rangWo1 img {
+    width: 400px;
+    height: 200px;
+  }
+  .container .rangWo .rangWo2 {
+    height: 225px;
+    padding-left: 50px;
+  }
+  .container .rangWo .rangWo2 h3 {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .container .rangWo .rangWo2 p {
+    color: #333333;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+  .container .rangWo .rangWo2 a {
+    margin-top: 20px;
+    color: #0070c9;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .container .rangWo .rangWo2 a:hover {
+    text-decoration: underline;
+  }
+  .container .line3 {
+    margin-top: 48px;
+    margin: auto;
+    border-bottom: 1px solid #dedede;
+  }
+  .container .liuxin {
+    margin: auto;
+    margin-top: 32px;
+  }
+  .container .liuxin h3 {
+    margin-bottom: 12px;
+    text-align: center;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+  }
+  .container .liuxin .liuxin1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .container .liuxin .liuxin1 a {
+    display: inline;
+    color: #0070c9;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .container .liuxin .liuxin1 a:hover {
+    text-decoration: underline;
+  }
+  .container .liuxin .liuxin2 {
+    text-align: center;
+    color: #333333;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .container .line4 {
+    margin-top: 48px;
+    border-bottom: 1px solid #dedede;
+  }
+  .container .baohu {
+    margin: auto;
+    margin-top: 45px;
+    display: flex;
+  }
+  .container .baohu .baohu1 {
+    width: 667px;
+    height: 186px;
+  }
+  .container .baohu .baohu1 h3 {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  .container .baohu .baohu1 p {
+    margin-top: 10px;
+    margin-bottom: 17px;
+    color: #333333;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .container .baohu .baohu1 a {
+    margin-top: 20px;
+    color: #0070c9;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .container .baohu .baohu1 a:hover {
+    text-decoration: underline;
+  }
+  .container .baohu .baohu2 {
+    display: none;
+    width: 150px;
+    height: 150px;
+  }
+  .container .baohu .baohu2 img {
+    width: 150px;
+    height: 150px;
+  }
+  .container .line5 {
+    margin: auto;
+    margin-top: 12px;
+    border-bottom: 1px solid #dedede;
+  }
+  .container .liaojie {
+    margin: auto;
+    margin-top: 32px;
+  }
+  .container .liaojie h3 {
+    text-align: center;
+    margin-bottom: 12px;
+    color: #333333;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 29px;
+  }
+  .container .liaojie p {
+    text-align: center;
+  }
+  .container .liaojie p a {
+    display: inline;
+    color: #0070c9;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .container .liaojie p a:hover {
+    text-decoration: underline;
+  }
+  .container .line6 {
+    margin: auto;
+    margin-top: 48px;
+    border-bottom: 1px solid #dedede;
+  }
+  .container .youguan {
+    margin: auto;
+    margin-top: 48px;
+  }
+  .container .youguan h3 {
+    text-align: center;
+    margin-bottom: 12px;
+    color: #333333;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 47px;
+  }
+  .container .youguan p {
+    text-align: center;
+  }
+  .container .youguan p a {
+    display: inline;
+    color: #0070c9;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .container .youguan p a:hover {
+    text-decoration: underline;
+  }
+  .container .genghuan {
+    margin: auto;
+    margin-top: 48px;
+    padding-bottom: 74px;
+    text-align: center;
+  }
+  .container .genghuan h3 {
+    text-align: center;
+    margin-bottom: 13px;
+    color: #333333;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 29px;
+  }
+  .container .genghuan .plans {
+    display: block;
+    color: #0070c9;
+    line-height: 40px;
+  }
+  .container .genghuan .plans:hover {
+    text-decoration: underline;
+  }
+  .container #footer {
+    height: 250px;
+    background-color: #f2f2f2;
+  }
+  .container #footer #footerB {
+    height: 30px;
+    position: absolute;
+    left: 10%;
+  }
+  .container #footer #footerB p {
+    display: inline-block;
+    position: relative;
+    top: -50%;
+    padding-left: 13px;
+    font-size: 12px;
+    color: #555;
+  }
+  .container #footer #footerB span {
+    height: 8px;
+    width: 9px;
+    border-right: 1px solid #d3cdcd;
+    border-top: 1px solid #d3cdcd;
+    transform: rotate(50deg) skewX(15deg);
+    display: inline-block;
+    position: relative;
+    top: -50%;
+  }
+  .container #footer .footerC {
+    position: relative;
+    top: 40px;
+    padding-left: 15px;
+  }
+  .container #footer .footerC .line7 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dedede;
+  }
+  .container #footer .footerC p {
+    font-size: 12px;
+    color: #333333;
+  }
+  .container .footerA {
+    display: none;
+  }
+  .smallWord {
+    display: none;
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    line-height: 44px;
+    height: 44px;
+  }
+  .smallWordhover {
+    color: gray;
+  }
+  #headerleft {
+    width: 20px;
+    height: 8px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    position: relative;
+    top: 18px;
+  }
+}
